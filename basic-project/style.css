@@ -126,4 +126,87 @@ h1,h2,h3,h4,h5,h6,p,a,ul,li,img{
     display: inline-block;
 }
 /* About Section End */
+/* services Section start */
+#services{
+    margin-top: 150px;
+}
+.service-top{
+    text-align: center;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.service-top h2{
+    color: green;
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-weight: 800;
+}
+.service-top p{
+    color: gray;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.service-left{
+    width: 370px;
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+}
+.service-left i{
+    font-size: 30px;
+    color: green;
+    margin-bottom: 5px;
+}
+.service-left h4{
+    font-size: 30px;
+    color: firebrick;
+    margin-bottom: 5px;
+}
+.service-left p{
+    font-size: 18px;
+    color: dimgray;
+}
+.service-middle{
+    width: 370px;
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+}
+.service-middle i{
+    font-size: 30px;
+    color: green;
+    margin-bottom: 5px;
+}
+.service-middle h4{
+    font-size: 30px;
+    color: firebrick;
+    margin-bottom: 5px;
+}
+.service-middle p{
+    font-size: 18px;
+    color: dimgray;
+}
+.service-right{
+    width: 370px;
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+}
+.service-right i{
+    font-size: 30px;
+    color: green;
+    margin-bottom: 5px;
+}
+.service-right h4{
+    font-size: 30px;
+    color: firebrick;
+    margin-bottom: 5px;
+}
+.service-right p{
+    font-size: 18px;
+    color: dimgray;
+}
+/* services Section End */
 
