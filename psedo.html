@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psedu</title>
+    <style>
+        h3::after{
+            content: '.pdf';
+            color: blueviolet;
+            font-size: 10px;
+        }
+        h3::before{
+            content: 'start: ';
+            color: blueviolet;
+            font-size: 10px;
+        }
+        p::first-letter{
+            font-size: 3em;
+            color: blueviolet;
+        }
+        p::first-line{
+            background-color: cadetblue;
+        }
+        ::selection{
+            background-color: blue;
+        }
+        input::placeholder{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h3>Heading -1</h3>
+    <h3>Heading -2</h3>
+    <h3>Heading -3</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel voluptates delectus sunt sint eum suscipit totam ipsum culpa necessitatibus architecto!</p>
+    <p>Earum ex aperiam accusantium, explicabo consequuntur rem veniam porro ea expedita recusandae aspernatur ratione illum repudiandae. Est, saepe possimus. Eius!</p>
+    <p>In molestiae sapiente fuga exercitationem veniam quibusdam corrupti excepturi consectetur quo quaerat! Voluptas numquam rem veniam error aliquam ducimus at!</p>
+    <input type="text" placeholder="kire ghadha">
+</body>
+</html>
